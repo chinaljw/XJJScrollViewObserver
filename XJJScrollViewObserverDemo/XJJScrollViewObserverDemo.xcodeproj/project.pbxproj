@@ -231,7 +231,6 @@
 				TargetAttributes = {
 					72C2503E1BFCBDE7008209D2 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = U7GBX8A5V6;
 					};
 					72C250571BFCBDE8008209D2 = {
 						CreatedOnToolsVersion = 7.1;
@@ -441,7 +440,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = XJJScrollViewObserverDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ljw.XJJScrollViewObserverDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,7 +453,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = XJJScrollViewObserverDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ljw.XJJScrollViewObserverDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
