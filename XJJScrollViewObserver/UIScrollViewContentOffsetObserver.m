@@ -7,7 +7,6 @@
 //
 
 #import "UIScrollViewContentOffsetObserver.h"
-//#import "UIScrollView+LJWZoomingHeader.h"
 
 @implementation UIScrollViewContentOffsetObserver
 
@@ -27,11 +26,6 @@
         
     }
 }
-
-//- (void)dealloc
-//{
-//    NSLog(@"dealloc %@", self);
-//}
 
 #pragma mark - Setter & Getter
 - (NSMutableArray<id<UIScrollViewContentOffsetObserverDelegate>> *)delegates

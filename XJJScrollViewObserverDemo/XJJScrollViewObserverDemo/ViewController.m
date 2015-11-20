@@ -23,10 +23,8 @@
     
     self.scrollView.contentSize = CGSizeMake(0, 1000.f);
     
-    UIScrollViewContentOffsetObserver *observer = [[UIScrollViewContentOffsetObserver alloc] init];
-    [observer addDelegate:self];
+    [self.scrollView.contentOffsetObserver addDelegate:self];
     
-    [self.scrollView addContentOffsetObserver:observer];
     
 }
 
