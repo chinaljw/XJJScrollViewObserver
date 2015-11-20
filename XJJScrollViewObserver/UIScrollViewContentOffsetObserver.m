@@ -31,7 +31,7 @@
 - (NSMutableArray<id<UIScrollViewContentOffsetObserverDelegate>> *)delegates
 {
     if (!_delegates) {
-        _delegates = [[NSMutableArray alloc] init];
+        _delegates = [[NSMutableArray<id<UIScrollViewContentOffsetObserverDelegate>> alloc] init];
     }
     return _delegates;
 }
