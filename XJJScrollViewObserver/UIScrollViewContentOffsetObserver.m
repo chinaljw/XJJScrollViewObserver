@@ -28,7 +28,7 @@
 }
 
 #pragma mark - Setter & Getter
-- (NSMutableArray<id<UIScrollViewContentOffsetObserverDelegate>> *)delegates
+- (NSMutableArray *)delegates
 {
     if (!_delegates) {
         _delegates = [[NSMutableArray alloc] init];
