@@ -15,9 +15,6 @@
 		72C250521BFCBDE8008209D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C250501BFCBDE8008209D2 /* LaunchScreen.storyboard */; };
 		72C2505D1BFCBDE8008209D2 /* XJJScrollViewObserverDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C2505C1BFCBDE8008209D2 /* XJJScrollViewObserverDemoTests.m */; };
 		72C250681BFCBDE8008209D2 /* XJJScrollViewObserverDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C250671BFCBDE8008209D2 /* XJJScrollViewObserverDemoUITests.m */; };
-		72C2507C1BFCBDFA008209D2 /* UIScrollView+ContentOffsetObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C250771BFCBDFA008209D2 /* UIScrollView+ContentOffsetObserver.m */; };
-		72C2507D1BFCBDFA008209D2 /* UIScrollViewContentOffsetObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C250791BFCBDFA008209D2 /* UIScrollViewContentOffsetObserver.m */; };
-		72C2507E1BFCBDFA008209D2 /* UIScrollViewScrollInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C2507B1BFCBDFA008209D2 /* UIScrollViewScrollInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +51,6 @@
 		72C250631BFCBDE8008209D2 /* XJJScrollViewObserverDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJJScrollViewObserverDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C250671BFCBDE8008209D2 /* XJJScrollViewObserverDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJJScrollViewObserverDemoUITests.m; sourceTree = "<group>"; };
 		72C250691BFCBDE8008209D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72C250761BFCBDFA008209D2 /* UIScrollView+ContentOffsetObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ContentOffsetObserver.h"; sourceTree = "<group>"; };
-		72C250771BFCBDFA008209D2 /* UIScrollView+ContentOffsetObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ContentOffsetObserver.m"; sourceTree = "<group>"; };
-		72C250781BFCBDFA008209D2 /* UIScrollViewContentOffsetObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollViewContentOffsetObserver.h; sourceTree = "<group>"; };
-		72C250791BFCBDFA008209D2 /* UIScrollViewContentOffsetObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewContentOffsetObserver.m; sourceTree = "<group>"; };
-		72C2507A1BFCBDFA008209D2 /* UIScrollViewScrollInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollViewScrollInfo.h; sourceTree = "<group>"; };
-		72C2507B1BFCBDFA008209D2 /* UIScrollViewScrollInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewScrollInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +101,6 @@
 		72C250411BFCBDE7008209D2 /* XJJScrollViewObserverDemo */ = {
 			isa = PBXGroup;
 			children = (
-				72C250751BFCBDFA008209D2 /* XJJScrollViewObserver */,
 				72C250451BFCBDE7008209D2 /* AppDelegate.h */,
 				72C250461BFCBDE7008209D2 /* AppDelegate.m */,
 				72C250481BFCBDE7008209D2 /* ViewController.h */,
@@ -148,20 +138,6 @@
 				72C250691BFCBDE8008209D2 /* Info.plist */,
 			);
 			path = XJJScrollViewObserverDemoUITests;
-			sourceTree = "<group>";
-		};
-		72C250751BFCBDFA008209D2 /* XJJScrollViewObserver */ = {
-			isa = PBXGroup;
-			children = (
-				72C250761BFCBDFA008209D2 /* UIScrollView+ContentOffsetObserver.h */,
-				72C250771BFCBDFA008209D2 /* UIScrollView+ContentOffsetObserver.m */,
-				72C250781BFCBDFA008209D2 /* UIScrollViewContentOffsetObserver.h */,
-				72C250791BFCBDFA008209D2 /* UIScrollViewContentOffsetObserver.m */,
-				72C2507A1BFCBDFA008209D2 /* UIScrollViewScrollInfo.h */,
-				72C2507B1BFCBDFA008209D2 /* UIScrollViewScrollInfo.m */,
-			);
-			name = XJJScrollViewObserver;
-			path = ../../XJJScrollViewObserver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,11 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C2507C1BFCBDFA008209D2 /* UIScrollView+ContentOffsetObserver.m in Sources */,
 				72C2504A1BFCBDE7008209D2 /* ViewController.m in Sources */,
 				72C250471BFCBDE7008209D2 /* AppDelegate.m in Sources */,
-				72C2507D1BFCBDFA008209D2 /* UIScrollViewContentOffsetObserver.m in Sources */,
-				72C2507E1BFCBDFA008209D2 /* UIScrollViewScrollInfo.m in Sources */,
 				72C250441BFCBDE7008209D2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
